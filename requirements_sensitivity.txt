@@ -1,9 +1,0 @@
-# Core dependencies for the sensitivity-mapping notebook
-numpy>=1.24
-pandas>=2.0
-plotly>=5.18
-openpyxl>=3.1        # read the .xlsx input
-kaleido>=0.2.1       # REQUIRED for PNG export (fig.write_image); set save_png=False in the notebook to skip
-
-# Jupyter, to open and run the notebook (skip if you already have it)
-jupyterlab>=4.0
